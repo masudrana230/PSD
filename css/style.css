@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+}
+P{
+    font-size: 16px;
+    line-height: 26px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+h4{
+    font-size: 20px;
+    font-weight: 200;
+}
+.underline{
+    width: 100px;
+    height: 2px;
+    background:#ff8b38;
+    margin: 0 auto;
+}
+/* header css */
+header{
+    width: 100%;
+    padding: 10px 0px;
+    background: #000;
+}
+
+.navbar .nav-link{
+    color: white;
+}
+.nav-item{
+    margin-left: 15px;
+}
+.nav-item .active{
+    color: white !important;
+}
+.banner-section{
+    width: 100%;
+    background: url(../img/bg.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content h1{
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+}
+.content h1 span{
+    font-weight: 300;
+    color: #ff8b38;
+}
+
+.content h2{
+    color: #fff;
+    width: 74%;
+    
+}
+
+
+.content .underline{
+   margin: 25px 0px; 
+   background-color: #fff !important;
+   width: 72px;
+}
+.content p{
+    width: 66%;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #fff;
+}
+.btns a{
+    padding: 8px 30px;
+}
+.btns .btn-info{
+    background: transparent;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 30px;
+}
+.cus-height{
+    height: 100vh;
+}
+.right-inner{
+
+}
+
+.card{
+    width: 375px;
+    border: none;
+}
+.card .card-header h3{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+.card .card-header h3 span{
+    color: #ff8b38;
+    text-transform: uppercase;
+
+}
+.card-body{
+    padding: 25px 35px ;
+}
+
+.card-footer {
+    padding: 0px;
+ 
+ }
+
+.card-footer input{
+   background-color: #ff8b38;
+
+}
+.card .card-footer .form-control{
+    border: none !important;
+    background: #ff8b38 !important;
+
+}
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid #a8a8a8 !important;
+    border-radius: 0;
+}
+::placeholder {
+    color: rgb(185, 183, 187) !important;
+  
+  }
